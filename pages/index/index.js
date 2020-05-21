@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: 'Hello World',
+    motto: '欢迎进入小程序',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -42,6 +42,14 @@ Page({
         }
       })
     }
+  },
+  onShow(){
+    setTimeout(function(){
+       wx.reLaunch({
+        url: '../tabbar/home/home',
+      })
+    },2000)
+   
   },
   getUserInfo: function(e) {
     console.log(e)

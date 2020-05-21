@@ -1,0 +1,4 @@
+<!--pages/tabbar/home/home.wxml-->
+<view class="total-block">
+  <view class="top-block"></view>
+</view>
