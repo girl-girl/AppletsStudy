@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/tabbar/home/home",
-    "pages/tabbar/my/my"
+    "pages/tabbar/my/my",
+    "pages/event-block/event-list"
   ],
   "window": {
     "backgroundTextStyle": "light",
