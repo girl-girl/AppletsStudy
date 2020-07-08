@@ -8,14 +8,14 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "小程序",
+    "navigationBarBackgroundColor": "#ffeee4",
+    "navigationBarTitleText": "偶遇",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#000",
     "selectedColor": "#1d7be3",
-    "backgroundColor": "#fff",
+    "backgroundColor": "#ffeee4",
     "list": [
       {
         "pagePath": "pages/tabbar/home/home",

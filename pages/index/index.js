@@ -4,7 +4,7 @@ const app = getApp()
 
 Page({
   data: {
-    motto: '欢迎进入小程序',
+    motto: '戳他/她',
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
@@ -44,11 +44,6 @@ Page({
     }
   },
   onShow(){
-    setTimeout(function(){
-       wx.reLaunch({
-        url: '../tabbar/home/home',
-      })
-    },2000)
    
   },
   getUserInfo: function(e) {
@@ -58,5 +53,11 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  //跳转小程序内页
+  goDetail(){
+      wx.reLaunch({
+       url: '../tabbar/home/home',
+     })
   }
 })

@@ -1,4 +1,7 @@
 /**index.wxss**/
+page{
+  background-color: #ffeee4;
+}
 .userinfo {
   display: flex;
   flex-direction: column;
@@ -17,5 +20,22 @@
 }
 
 .usermotto {
-  margin-top: 200px;
+  position: relative;
+  /* width: 480rpx; */
+  margin: 200rpx auto;
+}
+.usermotto image{
+  width: 240rpx;
+  height: 185rpx;
+  /* margin: 0 auto; */
+}
+.user-motto{
+  position: absolute;
+  width: 240rpx;
+  margin: 0 auto;
+  border-radius: 20rpx;
+  /* background: #F2A2C3; */
+  color: #fff;
+  bottom: 30rpx;
+  text-align: center;
 }

@@ -1,4 +1,7 @@
 /* pages/tabbar/home/home.wxss */
+page{
+  background-color: #ffeee4;
+}
 .total-block {
   width: 100%;
   height: 100%;
