@@ -7,7 +7,8 @@ Page({
     motto: '戳他/她',
     userInfo: {},
     hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    isbind:true,//是否绑定情侣
   },
   //事件处理函数
   bindViewTap: function() {

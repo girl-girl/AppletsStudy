@@ -8,14 +8,14 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#ffeee4",
+    "navigationBarBackgroundColor": "#fefaec",
     "navigationBarTitleText": "偶遇",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "color": "#000",
-    "selectedColor": "#1d7be3",
-    "backgroundColor": "#ffeee4",
+    "color": "#625772",
+    "selectedColor": "#f9a1bc",
+    "backgroundColor": "#fefaec",
     "list": [
       {
         "pagePath": "pages/tabbar/home/home",

@@ -1,6 +1,6 @@
 /**index.wxss**/
 page{
-  background-color: #ffeee4;
+  background-color: #fefaec;
 }
 .userinfo {
   display: flex;
@@ -38,4 +38,68 @@ page{
   color: #fff;
   bottom: 30rpx;
   text-align: center;
+}
+/* 绑定情侣展示内容 */
+.havecp{
+  width: 100%;
+  margin: 0 auto;
+}
+.top-info{
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.ladatas{
+  position: absolute;
+  top: 35%;
+  left: 45%;
+  color: #de5b7b;
+  font-size: 24rpx;
+  font-weight: 800;
+}
+.top-info .image-01{
+ border-radius: 100rpx;
+ align-items: center;
+}
+.top-info .image-02{
+  width: 350rpx;
+  height: auto;
+  margin: 0 auto;
+}
+.main-info{
+  font-size: 32rpx;
+  width: 100%;
+  margin-top: 40px;
+  text-align: center;
+  color: #625772;
+}
+.recordnum{
+  margin-top: 10px;
+  font-size: 32rpx;
+  width: 100%;
+  text-align: center;
+  color: #de5b7b;
+}
+.sentence{
+  width:60%;
+  margin:20px auto;
+  line-height: 40px;
+  font-size: 32rpx;
+  text-align: center;
+  color: #93efed;
+}
+.bottom-info{
+  position: relative;
+  width: 150px;
+  margin: 0 auto;
+}
+.op-info{
+  position: absolute;
+  left: 28%;
+  bottom: 35%;
+  color: #fff;
 }

@@ -1,6 +1,6 @@
 /* pages/tabbar/home/home.wxss */
 page{
-  background-color: #ffeee4;
+  background-color: #fefaec;
 }
 .total-block {
   width: 100%;

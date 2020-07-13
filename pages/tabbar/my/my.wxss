@@ -1,4 +1,4 @@
 /* pages/tabbar/my/my.wxss */
 page{
-  background-color: #ffeee4;
+  background-color: #fefaec;
 }

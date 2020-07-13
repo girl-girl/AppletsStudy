@@ -1,15 +1,46 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
-    <block wx:else>
-      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
-      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
-    </block>
+<!-- 未绑定的首页 -->
+  <view class="nocp" wx:if="{{!isbind}}">
+      <view class="userinfo">
+        <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+        <block wx:else>
+          <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+          <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        </block>
+      </view>
+      <view class="usermotto">
+        <view class="user-motto"   bindtap="goDetail">{{motto}}</view>
+        <!-- <button class="user-motto">{{motto}}</button> -->
+        <image src="../../images/pageimg/btn_01.png"  bindtap="goDetail"></image>
+      </view>
   </view>
-  <view class="usermotto">
-    <view class="user-motto"   bindtap="goDetail">{{motto}}</view>
-    <!-- <button class="user-motto">{{motto}}</button> -->
-    <image src="../../images/pageimg/btn_01.png"  bindtap="goDetail"></image>
+  <!-- 已绑定情侣的首页 -->
+  <view class="havecp" wx:if="{{isbind}}">
+    <view class="top-info">
+    <!-- 展示恋爱天数 -->
+    <view class="ladatas">135</view>
+        <image src="" class="image-01" style="width:120rpx" mode="widthFix" src="../../images/pageimg/tx_02.jpg"></image>
+        <image src="../../images/pageimg/link_01.png" mode="widthFix" class="image-02"></image>
+         <image src="" class="image-01" style="width:120rpx" mode="widthFix" src="../../images/pageimg/tx_03.jpg"></image>
+    </view>
+    <view class="main-info">
+
+      
+      <view class="sentence">
+      时间为媒，青春为聘；你若为良辰，我愿当美景。
+      </view>
+      <view class="recordname">打卡小能手</view>
+      <view class="recordnum">
+      已经完成事件：10件
+      </view>
+       <view class="recordnum">
+      进行中事件：10件
+      </view>
+    </view>
+    <view class="bottom-info">
+          <view class="op-info"   bindtap="goDetail">进入旅程</view>
+          <image src="../../images/pageimg/btn_01.png"  style="width:150px"  mode="aspectFit" bindtap="goDetail"></image>
+    </view>
   </view>
 </view>
