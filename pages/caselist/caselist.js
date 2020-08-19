@@ -1,11 +1,14 @@
-// pages/tabbar/home/home.js
+// pages/caselist/caselist.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    pagename:'小事列表',
+    caselist:[
+      {casename:'一起放风筝',bgimg:'',status:''}
+    ],//事件列表
   },
 
   /**
@@ -62,11 +65,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  goCaseList:function(event){
-    wx.navigateTo({
-      url:'/pages/caselist/caselist?casetype='+event.currentTarget.dataset.hi
-    })
   }
-
 })

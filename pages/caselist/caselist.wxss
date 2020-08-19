@@ -1,0 +1,12 @@
+/* pages/caselist/caselist.wxss */
+page{
+  background-color: #fefaec;
+}
+.pagetop{
+  height: 80rpx;
+  width: 100%;
+  text-align: center;
+  line-height: 80rpx;
+  color: #e8a394;
+  font-size: 24rpx;
+}

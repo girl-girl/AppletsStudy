@@ -4,19 +4,19 @@
     爱神告诉我，爱是缘分，爱是感动，爱是习惯，爱是宽容，爱是牺牲，爱是体谅，爱是一辈子的承诺！
   </view>
   <view class="main-block">
-    <view class="caseblock">
+    <view class="caseblock"  data-hi="0" bindtap="goCaseList">
          <image src="../../../images/pageimg/indexbg_01.png" style="width:276rpx" mode="widthFix"></image>
          <view class="casename">小事100件</view>
     </view>
-     <view class="caseblock">
+     <view class="caseblock" data-hi="1" bindtap="goCaseList">
         <image src="../../../images/pageimg/indexbg_06.png" style="width:276rpx" mode="widthFix"></image>
          <view class="casename">解锁20件</view>
     </view>
-     <view class="caseblock">
+     <view class="caseblock" data-hi="2" bindtap="goCaseList">
        <image src="../../../images/pageimg/indexbg_03.png" style="width:276rpx" mode="widthFix"></image>
        <view class="casename">封印80件</view>
     </view>
-     <view class="caseblock">
+     <view class="caseblock" data-hi="3" bindtap="goCaseList">
        <image src="../../../images/pageimg/indexbg_05.png" style="width:276rpx" mode="widthFix"></image>
        <view class="casename">小事盲盒</view>
     </view>

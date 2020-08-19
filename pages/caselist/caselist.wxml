@@ -1,0 +1,9 @@
+<!--pages/caselist/caselist.wxml-->
+<template>
+  <view>
+    <view class="pagetop">{{pagename}}</view>
+    <view class="pagelistblock">
+      <view class="caseblock" v-for="(caseinfo,index) in caselist"></view>
+    </view>
+  </view>
+</template>

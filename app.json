@@ -4,7 +4,8 @@
     "pages/logs/logs",
     "pages/tabbar/home/home",
     "pages/tabbar/my/my",
-    "pages/event-block/event-list"
+    "pages/event-block/event-list",
+    "pages/caselist/caselist"
   ],
   "window": {
     "backgroundTextStyle": "light",
